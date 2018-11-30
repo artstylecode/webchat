@@ -1,0 +1,13 @@
+{
+	"require": {
+      "guzzlehttp/guzzle": "~6.0",
+		"twbs/bootstrap": "3.3.7",
+		"components/jquery":"*",
+		"bootflat/bootflat":"*"
+   },
+    "autoload": {
+   "psr-4": {
+            "webchat\\": "src/webchat"
+        }
+    }
+}
